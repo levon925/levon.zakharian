@@ -1,0 +1,552 @@
+@font-face {
+    font-family: Monument_Extended;
+    src: url(../fonts/MonumentExtended-Regular.otf);
+}
+body{
+    color: #FFFFFF;
+    height: 100%;
+    background-color: #141414;
+}
+a{
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+@media screen and (max-width: 1600px) {
+    .main-text{
+        text-decoration: none;
+        font-family: Monument_Extended;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 80px;
+        line-height: 120%;  
+    }
+    .main-texts{
+        max-width: 1031px;
+        position: relative;
+        top: 23%;
+        margin: auto;
+    }
+    .tx1{
+        text-align: right;
+        max-width: 1031px;
+    }
+    .tx2{
+        text-align: center;
+        max-width: 1031px;
+    }
+    .tx3{
+        text-align: left;
+        max-width: 1031px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .main-text{
+        text-decoration: none;
+        font-family: Monument_Extended;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 65px;
+        line-height: 120%;  
+    }
+    .main-texts{
+        max-width: 830px;
+        position: relative;
+        top: 23%;
+        margin: auto;
+    }
+    .tx1{
+        text-align: right;
+        max-width: 830px;
+    }
+    .tx2{
+        text-align: center;
+        max-width: 830px;
+    }
+    .tx3{
+        text-align: left;
+        max-width: 830px;
+    }
+}
+
+.animation{
+    max-width: 1600px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    text-align: center;
+    
+    
+}
+.main-content{
+    position: absolute;
+    top:100%;
+    left: 0;
+    margin-top: 200px;
+    width: 100%;
+    max-width: 1600px;
+    
+}
+
+.header{
+    
+    margin: auto;
+    margin-top: 54px;
+    max-width: 1200px;
+    height: 20px;
+    position: relative;
+    
+}
+.logo{
+    text-decoration: none;
+    font-family: Plain;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    position: absolute;
+    left: 0;
+}
+.menu-btns{
+    position: absolute;
+    display: block;
+    right: 0;
+
+}
+.menu-btn{
+    text-decoration: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 60px;    
+}
+
+
+.abtx1{
+    text-align:left;
+    max-width: 400px;
+}
+.abtx2{
+    text-align:right;
+    max-width: 480px;
+}
+.prjct1{
+    text-align: left;
+    max-width: 295px;
+
+}
+.prjct2{
+    text-align:right;
+    max-width: 375px;
+}
+.ftr1{
+    text-align:left;
+    max-width: 386px;
+}
+.ftr2{
+    text-align:right;
+    max-width: 400px;
+}
+.about{
+    position: relative;
+    margin: auto;
+    width: 1200px;
+    
+    
+}
+.about-content{
+    height: 100%;
+    margin-left: 85px;
+    
+    
+}
+.about-header{
+    
+    max-width: 1200px;
+}
+.about-button{
+   float: right;
+   
+   width: 202px;
+   height: 28px;
+   position: absolute;
+   right: 0;
+   top: 106px;
+   
+    
+}
+.about-arrow{
+    width: 17px;
+    height: 17px;
+   
+    
+    top: 5px;
+    margin-left: 10px;
+ 
+
+}
+.about-more{
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+    
+    text-transform: uppercase;
+}
+.about-texts{
+    position: relative;
+    
+}
+.about-text{
+    font-family: Monument_Extended;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 140%;
+
+}
+.about-me{
+    height: 100%;
+    max-width: 1114px;
+    margin-top: 100px;
+}
+.about-me-img{
+    float: center;
+    display: flex;
+    
+    
+    
+    
+}
+.my-photo{
+    width: 420px;
+}
+.diploma{
+    width: 420px;
+    
+}
+.about-me-title{
+    float:left;
+    width: 178px;
+    margin-right: 187px;
+    height: 200px;
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 140%;
+/* identical to box height, or 35px */
+color: rgba(255, 255, 255, 0.6);
+text-transform: uppercase;
+}
+.about-me-text{
+    width: 299px;
+    height: 224px;
+    margin-left: 30px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+
+}
+.my-skills{
+    max-width: 916px;
+    margin-top: 150px;
+    height: 194px;
+    position: relative;
+    
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    
+}
+.skills{
+    float: center;
+    height: 194px;
+    width: 551px;
+    display: block;
+   
+    margin-left: 365px;
+    
+}
+.skill-list{
+    width: 102px;
+    position: absolute;
+    
+    bottom: 0;
+    
+}
+.slr{
+    right: 0;
+}
+.skill{
+    width: 58px;
+height: 28px;
+
+
+/* Desktop / Text - 20px Inter */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 140%;
+    
+    display: block;
+    margin-top: 0;
+}
+.sm{
+    margin-top: 25px;
+}
+.my-rewards{
+    margin-top: 150px;
+}
+.rwrddb{
+    margin-top: 25px;
+    display: block;
+}
+.reward-years{
+    
+    width: 128px;
+height: 35px;
+display: block;
+
+/* Desktop/H3 - 25px Inter */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 140%;
+}
+.projects{
+    position: relative;
+    margin: auto;
+    width: 1200px;
+    
+    margin-top: 200px;
+
+}
+.websites{
+    margin-left: 85px;
+    max-width: 1115px;
+    margin-top: 100px;
+}
+.website{
+    
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+   
+}
+.wbst{
+    
+    
+    width: 114px;
+height: 30px;
+left: 285px;
+top: 2897px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+
+
+}
+.open-site-arrow{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 25px;
+    height: 25px;
+}
+.github{
+    position: absolute;
+    right: 0;
+    top: 86px;
+    float: right;
+}
+.show-more{
+    max-width: 1200px;
+}
+.show-more-button{
+    
+    
+    margin-top: 100px;
+    margin-left: 415px;
+    padding: 23px 121px;
+    background-color: transparent;
+    border: 1px solid white;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+.footer{
+    position: relative;
+    margin: auto;
+    width: 1200px;
+    
+    margin-top: 200px;
+}
+.contact{
+    margin-top: 100px;
+    margin-left: 85px;
+    height: 255px;
+    position: relative;
+    max-width: 1003px;
+}
+.hello-text{
+    width: 111px;
+height: 30px;
+
+
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 30px;
+}
+.input{
+    width: 365px;
+    height: 32px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.6); 
+}
+.inpt{
+    margin-top: 40px;
+}
+.say-hello{
+    width:365px;
+}
+.social-media{
+    margin-top: 64px;
+    width: 487px;
+    height: 157px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+.contact-me{
+    float: right;
+    
+    width: 165px;
+    height: 28px;
+    position: absolute;
+    right: 0;
+    top: 106px;
+    
+     
+ }
+.contact-mail{
+    width: 487px;
+height: 42px;
+
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 42px;
+
+color: #FFFFFF;
+}
+.send-button{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 18px 155px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+}
+.social-block{
+    margin-top: 50px;
+    position: relative;
+    width: 66px;
+    height: 65px;
+}
+.media{
+    position: absolute;
+    height: 20px;
+
+
+/* Desktop / Small text - 14px Inter */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: rgba(255, 255, 255, 0.6);
+    
+}
+.m1{
+    top: 0;
+}
+.m2{
+    bottom: 0;
+}
+.social{
+    position: relative;
+    width: 319px;
+}
+.social-position1{
+    position: absolute;
+}
+.social-position2{
+    position: absolute;
+    right: 0;
+}
+.real-footer{
+    max-width: 1600px;
+    margin-top: 100px;
+    height: 80px;
+}
+.footer-texts{
+    max-width: 1200px;
+    margin: 30px auto;
+}
+.footer-text{
+    margin-left: 248px;
+}
+.footer-text3{
+    margin-left: 250px;
+}
+.footer-link{
+    text-decoration: underline;
+}
+.footer-hr{
+    
+    background: rgba(255, 255, 255, 0.5);
+}

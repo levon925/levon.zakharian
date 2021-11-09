@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levon Zakharian</title>
+    <!--Inter font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <!--/Inter font-->
+    <!--Animation script files-->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--End of animation script files-->
+</head>
+<body>
+    <div class="animation" id="animation">
+        <!--header-->
+        <div class="header">
+            <a href="/" class="logo">Levon Zakharian</a>
+            <div class="menu-btns">
+                <a href="#about" class="menu-btn">About me</a>
+                <a href="#projects" class="menu-btn">Projects</a>
+                <a href="#contacts" class="menu-btn">Contacts</a>
+            </div>
+        </div>
+        <!-- /.header -->
+        <div class="main-texts">
+            <div class="tx1">
+                <span class="main-text">FRONT-END</span>
+            </div>
+            <div class="tx2">
+                <span class="main-text tx2">DEVELOPER BASED</span>
+            </div>
+            <div class="tx3">
+                <span class="main-text tx3">IN TBILISI</span>
+            </div>
+        </div>
+        <!-- /.main-texts -->
+
+    </div>
+    <!-- /.animation(header) -->
+    <div class="main-content">
+        
+            <div class="about" id="about">
+                
+                <div class="about-header">
+                    <div class="about-texts">
+                        <div class="abtx1">
+                            <span class="about-text">Let's get</span>
+                        </div>
+                        <!-- /.abtx1 -->
+                        <div class="abtx2">
+                            <span class="about-text">acquainted</span>
+                        </div>
+                        <!-- /.abtx2 -->
+                    </div>
+
+                    <div class="about-button">
+                        <a href="#" class="about-more">MORE ABOUT ME
+                            <img src="img/arrow-about.png" alt="" class="about-arrow">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-me">
+                        <span class="about-me-title">ABOUT ME</span>
+                        <div class="about-me-img"><img class="my-photo" src="img/my-photo.png" alt="">
+                            <span class="about-me-text">Hi! My name is Levon Zakarian, I'm a 22 years old front-end developer, based in Tbilisi, Georgia, and working in the whole world, so you can work with me, if you need a hight quality web-page for your work or for personal use.</span>
+                        </div>
+                        
+                    </div>
+                    <!-- /.about-me -->
+                    <div class="my-skills">
+                        <span class="about-me-title">my skills</span>
+                        <div class="skills">
+                            <div class="skill-list">
+                                <span class="skill">HTML</span>
+                                <span class="skill sm">CSS</span>
+                                <span class="skill sm">JavaScript</span>
+                                <span class="skill sm">jQuery</span>
+                            </div>
+                            <div class="skill-list slr">
+                                <span class="skill">Bootstrap</span>
+                                <span class="skill sm">Laravel</span>
+                                <span class="skill sm">Node.js</span>
+                                <span class="skill sm">WordPress</span>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    <!-- /.my-skills -->
+                    <div class="my-rewards">
+                        <span class="about-me-title">my rewards</span>
+                        <div class="about-me-img"><img class="diploma" src="img/diploma.jpg" alt="">
+                            <div class="about-me-text">
+                                <span class="reward-years">2017-2021</span>
+                                <span class="rwrddb">studied and graduated the bachelors grade of faculcy of informatics and counting systems from georgian technical univercity.</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- /.my-rewards -->
+                </div>
+                <!-- /.about-content -->
+            </div>
+            <!-- /.about -->
+            <div class="projects" id="projects">
+                <div class="about-texts">
+                    <div class="prjct1">
+                        <span class="about-text">See my</span>
+                    </div>
+                    <!-- /.abtx1 -->
+                    <div class="prjct2">
+                        <span class="about-text">projects</span>
+                    </div>
+                    <!-- /.abtx2 -->
+
+                </div>
+                <div class="github">
+                    <a href="#">
+                        <img class="github-image" src="img/github.png" alt="">
+                    </a>
+                    
+                </div>
+                <div class="websites">
+                    <hr>
+                    <div class="website">
+                        
+                        <a href="#" class="wbst">
+                            Website 1
+                            <img class="open-site-arrow" src="img/website-arrow.png" alt="">
+                        </a>
+                        
+                    </div>
+                    <hr>
+                    <div class="website">
+                        <a href="#" class="wbst">
+                            Website 2
+                            <img class="open-site-arrow" src="img/website-arrow.png" alt="">
+                        </a>
+                        
+                    </div>
+                    <hr>
+                    <div class="website">
+                        <a href="#" class="wbst">
+                            Website 3
+                            <img class="open-site-arrow" src="img/website-arrow.png" alt="">
+                        </a>
+                        
+                    </div>
+                    <hr>
+                    <div class="website">
+                        <a href="#" class="wbst">
+                            Website 4
+                            <img class="open-site-arrow" src="img/website-arrow.png" alt="">
+                        </a>
+                        
+                    </div>
+                    <hr>
+                    <div class="website">
+                        <a href="#" class="wbst">
+                            Website 5
+                            <img class="open-site-arrow" src="img/website-arrow.png" alt="">
+                        </a>
+                        
+                    </div>
+                    <hr>
+                </div>
+                <div class="show-more">
+                    <a href="#" class="show-more-button">
+                        SHOW MORE
+                    </a>
+                </div>
+            </div>
+            <!-- /.projects -->
+            <div class="footer" id="contacts">
+                <div class="about-texts">
+                    <div class="ftr1">
+                        <span class="about-text">Let's work</span>
+                    </div>
+                    <!-- /.abtx1 -->
+                    <div class="ftr2">
+                        <span class="about-text">together</span>
+                    </div>
+                    <!-- /.abtx2 -->
+
+                </div>
+                <div class="contact-me">
+                    <a href="#" class="about-more">CONTACT ME
+                        <img src="img/arrow-about.png" alt="" class="about-arrow">
+                    </a>
+                </div>
+                <div class="contact">
+                    <div class="say-hello">
+                        <span class="hello-text">Say Hello</span>
+                        <input class="input inpt" type="text" placeholder="Enter your e-mail">
+                        <input class="input" type="text" placeholder="Enter your message">
+                        <a href="#" class="send-button">SEND</a>
+                    </div>
+                    <div class="social-media">
+                        <span class="contact-mail">contact@levonzakharian.com</span>
+                        <div class="social">
+                            <div class="social-position1">
+                                <div class="social-block">
+                                    <span class="media m1">instagram</span>
+                                    <span class="media m2">github</span>
+                                </div>
+                            </div>
+                            <div class="social-position2">
+                                <div class="social-block scml">
+                                    <span class="media m1">facebook</span>
+                                    <span class="media m2">telegram</span>
+                                </div>
+                            </div>
+
+
+                            
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.footer -->
+            <div class="real-footer">
+                <hr class="footer-hr">
+                <div class="footer-texts">
+                    <span class="footer-text2">Levon Zakharian</span>
+                    <span class="footer-text">Developed by <a class="footer-link" href="#">me</a></span>
+                    <span class="footer-text3">Designed by <a class="footer-link" href="#">Lana Topchyan</a></span>
+                    <span class="footer-text">2021</span>
+                </div>
+                
+
+            </div>
+        
+        
+    </div>
+
+    
+
+
+
+
+    <!--Animation-->
+    <script src="js/three.min.js"></script>
+    <script src="js/vanta.net.min.js"></script>
+    <script src="js/animation.js"></script>
+
+
+    <!--Animation-end-->
+</body>
+</html>
