@@ -12,7 +12,6 @@
     <!--/Inter font-->
     <!--Animation script files-->
     <link rel="stylesheet" href="css/style.css">
-    
     <!--End of animation script files-->
 </head>
 <body>
@@ -39,13 +38,10 @@
             </div>
         </div>
         <!-- /.main-texts -->
-
     </div>
     <!-- /.animation(header) -->
     <div class="main-content">
-        
             <div class="about" id="about">
-                
                 <div class="about-header">
                     <div class="about-texts">
                         <div class="abtx1">
@@ -57,21 +53,18 @@
                         </div>
                         <!-- /.abtx2 -->
                     </div>
-
                     <div class="about-button">
                         <a href="#" class="about-more">MORE ABOUT ME
                             <img src="img/arrow-about.png" alt="" class="about-arrow">
                         </a>
                     </div>
                 </div>
-
                 <div class="about-content">
                     <div class="about-me">
                         <span class="about-me-title">ABOUT ME</span>
                         <div class="about-me-img"><img class="my-photo" src="img/my-photo.png" alt="">
                             <span class="about-me-text">Hi! My name is Levon Zakarian, I'm a 22 years old front-end developer, based in Tbilisi, Georgia, and working in the whole world, so you can work with me, if you need a hight quality web-page for your work or for personal use.</span>
                         </div>
-                        
                     </div>
                     <!-- /.about-me -->
                     <div class="my-skills">
@@ -89,9 +82,7 @@
                                 <span class="skill sm">Node.js</span>
                                 <span class="skill sm">WordPress</span>
                             </div>
-
                         </div>
-                        
                     </div>
                     <!-- /.my-skills -->
                     <div class="my-rewards">
@@ -101,7 +92,6 @@
                                 <span class="reward-years">2017-2021</span>
                                 <span class="rwrddb">studied and graduated the bachelors grade of faculcy of informatics and counting systems from georgian technical univercity.</span>
                             </div>
-
                         </div>
                     </div>
                     <!-- /.my-rewards -->
@@ -119,57 +109,49 @@
                         <span class="about-text">projects</span>
                     </div>
                     <!-- /.abtx2 -->
-
                 </div>
                 <div class="github">
                     <a href="#">
                         <img class="github-image" src="img/github.png" alt="">
                     </a>
-                    
                 </div>
                 <div class="websites">
-                    <hr>
+                    <hr class="website-hr">
                     <div class="website">
-                        
                         <a href="#" class="wbst">
                             Website 1
                             <img class="open-site-arrow" src="img/website-arrow.png" alt="">
                         </a>
-                        
                     </div>
-                    <hr>
+                    <hr class="website-hr">
                     <div class="website">
                         <a href="#" class="wbst">
                             Website 2
                             <img class="open-site-arrow" src="img/website-arrow.png" alt="">
                         </a>
-                        
                     </div>
-                    <hr>
+                    <hr class="website-hr">
                     <div class="website">
                         <a href="#" class="wbst">
                             Website 3
                             <img class="open-site-arrow" src="img/website-arrow.png" alt="">
                         </a>
-                        
                     </div>
-                    <hr>
+                    <hr class="website-hr">
                     <div class="website">
                         <a href="#" class="wbst">
                             Website 4
                             <img class="open-site-arrow" src="img/website-arrow.png" alt="">
                         </a>
-                        
                     </div>
-                    <hr>
+                    <hr class="website-hr">
                     <div class="website">
                         <a href="#" class="wbst">
                             Website 5
                             <img class="open-site-arrow" src="img/website-arrow.png" alt="">
-                        </a>
-                        
+                        </a>  
                     </div>
-                    <hr>
+                    <hr class="website-hr">
                 </div>
                 <div class="show-more">
                     <a href="#" class="show-more-button">
@@ -188,7 +170,6 @@
                         <span class="about-text">together</span>
                     </div>
                     <!-- /.abtx2 -->
-
                 </div>
                 <div class="contact-me">
                     <a href="#" class="about-more">CONTACT ME
@@ -217,14 +198,9 @@
                                     <span class="media m2">telegram</span>
                                 </div>
                             </div>
-
-
-                            
-
                         </div>
                     </div>
                 </div>
-
             </div>
             <!-- /.footer -->
             <div class="real-footer">
@@ -235,24 +211,12 @@
                     <span class="footer-text3">Designed by <a class="footer-link" href="#">Lana Topchyan</a></span>
                     <span class="footer-text">2021</span>
                 </div>
-                
-
-            </div>
-        
-        
+            </div>  
     </div>
-
-    
-
-
-
-
     <!--Animation-->
     <script src="js/three.min.js"></script>
     <script src="js/vanta.net.min.js"></script>
     <script src="js/animation.js"></script>
-
-
     <!--Animation-end-->
 </body>
 </html>
