@@ -67,7 +67,6 @@ a{
         max-width: 830px;
     }
 }
-
 .animation{
     max-width: 1600px;
     height: 100%;
@@ -76,8 +75,6 @@ a{
     left:0;
     right: 0;
     text-align: center;
-    
-    
 }
 .main-content{
     position: absolute;
@@ -86,17 +83,13 @@ a{
     margin-top: 200px;
     width: 100%;
     max-width: 1600px;
-    
 }
-
 .header{
-    
     margin: auto;
     margin-top: 54px;
     max-width: 1200px;
     height: 20px;
     position: relative;
-    
 }
 .logo{
     text-decoration: none;
@@ -112,7 +105,6 @@ a{
     position: absolute;
     display: block;
     right: 0;
-
 }
 .menu-btn{
     text-decoration: none;
@@ -123,8 +115,6 @@ a{
     line-height: 17px;
     padding-left: 60px;    
 }
-
-
 .abtx1{
     text-align:left;
     max-width: 400px;
@@ -136,7 +126,6 @@ a{
 .prjct1{
     text-align: left;
     max-width: 295px;
-
 }
 .prjct2{
     text-align:right;
@@ -153,63 +142,46 @@ a{
 .about{
     position: relative;
     margin: auto;
-    width: 1200px;
-    
-    
+    width: 1200px; 
 }
 .about-content{
     height: 100%;
-    margin-left: 85px;
-    
-    
+    margin-left: 85px; 
 }
 .about-header{
-    
     max-width: 1200px;
 }
 .about-button{
    float: right;
-   
    width: 202px;
    height: 28px;
    position: absolute;
    right: 0;
-   top: 106px;
-   
-    
+   top: 106px;  
 }
 .about-arrow{
     width: 17px;
     height: 17px;
-   
-    
     top: 5px;
     margin-left: 10px;
- 
-
 }
 .about-more{
-    
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 140%;
-    /* identical to box height, or 28px */
-    
     text-transform: uppercase;
 }
 .about-texts{
     position: relative;
-    
 }
 .about-text{
     font-family: Monument_Extended;
-font-style: normal;
-font-weight: normal;
-font-size: 50px;
-line-height: 140%;
-
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 140%;
 }
 .about-me{
     height: 100%;
@@ -219,17 +191,12 @@ line-height: 140%;
 .about-me-img{
     float: center;
     display: flex;
-    
-    
-    
-    
 }
 .my-photo{
     width: 420px;
 }
 .diploma{
     width: 420px;
-    
 }
 .about-me-title{
     float:left;
@@ -237,13 +204,12 @@ line-height: 140%;
     margin-right: 187px;
     height: 200px;
     font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-line-height: 140%;
-/* identical to box height, or 35px */
-color: rgba(255, 255, 255, 0.6);
-text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
 }
 .about-me-text{
     width: 299px;
@@ -254,51 +220,39 @@ text-transform: uppercase;
     font-weight: normal;
     font-size: 20px;
     line-height: 140%;
-
 }
 .my-skills{
     max-width: 916px;
     margin-top: 150px;
     height: 194px;
     position: relative;
-    
 }
-hr{
+.website-hr{
     border: 1px solid rgba(255, 255, 255, 0.9);
-    
 }
 .skills{
     float: center;
     height: 194px;
     width: 551px;
     display: block;
-   
     margin-left: 365px;
-    
 }
 .skill-list{
     width: 102px;
     position: absolute;
-    
     bottom: 0;
-    
 }
 .slr{
     right: 0;
 }
 .skill{
     width: 58px;
-height: 28px;
-
-
-/* Desktop / Text - 20px Inter */
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 140%;
-    
+    height: 28px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
     display: block;
     margin-top: 0;
 }
@@ -313,26 +267,20 @@ line-height: 140%;
     display: block;
 }
 .reward-years{
-    
     width: 128px;
-height: 35px;
-display: block;
-
-/* Desktop/H3 - 25px Inter */
-
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-line-height: 140%;
+    height: 35px;
+    display: block;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 140%;
 }
 .projects{
     position: relative;
     margin: auto;
     width: 1200px;
-    
     margin-top: 200px;
-
 }
 .websites{
     margin-left: 85px;
@@ -340,26 +288,19 @@ line-height: 140%;
     margin-top: 100px;
 }
 .website{
-    
     margin-top: 25px;
     margin-bottom: 25px;
     position: relative;
-   
 }
 .wbst{
-    
-    
     width: 114px;
-height: 30px;
-left: 285px;
-top: 2897px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-
-
+    height: 30px;
+    left: 285px;
+    top: 2897px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
 }
 .open-site-arrow{
     position: absolute;
@@ -378,8 +319,6 @@ font-size: 25px;
     max-width: 1200px;
 }
 .show-more-button{
-    
-    
     margin-top: 100px;
     margin-left: 415px;
     padding: 23px 121px;
@@ -389,12 +328,19 @@ font-size: 25px;
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
+    width: 127px;
+    height: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
 }
 .footer{
     position: relative;
     margin: auto;
     width: 1200px;
-    
     margin-top: 200px;
 }
 .contact{
@@ -406,15 +352,12 @@ font-size: 25px;
 }
 .hello-text{
     width: 111px;
-height: 30px;
-
-
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 30px;
+    height: 30px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
 }
 .input{
     width: 365px;
@@ -424,14 +367,11 @@ line-height: 30px;
     background-color: transparent;
     border-bottom: 1px solid rgba(255, 255, 255, 0.8);
     font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-
-color: rgba(255, 255, 255, 0.6); 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.6); 
 }
 .inpt{
     margin-top: 40px;
@@ -446,48 +386,40 @@ color: rgba(255, 255, 255, 0.6);
     position: absolute;
     right: 0;
     top: 0;
-
 }
 .contact-me{
     float: right;
-    
     width: 165px;
     height: 28px;
     position: absolute;
     right: 0;
     top: 106px;
-    
-     
  }
 .contact-mail{
     width: 487px;
-height: 42px;
-
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 35px;
-line-height: 42px;
-
-color: #FFFFFF;
+    height: 42px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
 }
 .send-button{
     background-color: white;
     border: none;
-    color: black;
     padding: 18px 155px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-font-family: Inter;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-text-transform: uppercase;
-color: #000000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
 }
 .social-block{
     margin-top: 50px;
@@ -498,18 +430,12 @@ color: #000000;
 .media{
     position: absolute;
     height: 20px;
-
-
-/* Desktop / Small text - 14px Inter */
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-
-color: rgba(255, 255, 255, 0.6);
-    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.6);
 }
 .m1{
     top: 0;
@@ -538,15 +464,31 @@ color: rgba(255, 255, 255, 0.6);
     margin: 30px auto;
 }
 .footer-text{
-    margin-left: 248px;
+    margin-left: 245px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+.footer-text2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
 }
 .footer-text3{
     margin-left: 250px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
 }
 .footer-link{
     text-decoration: underline;
 }
 .footer-hr{
-    
     background: rgba(255, 255, 255, 0.5);
 }
