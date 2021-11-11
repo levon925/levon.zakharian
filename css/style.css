@@ -339,6 +339,13 @@ a{
     line-height: 24px;
     text-transform: uppercase;
 }
+.show-more-button:hover{
+    background-color: white;
+    color: #141414;
+}
+.show-more-button:active{
+    background-color: gray;
+}
 .footer{
     position: relative;
     margin: auto;
@@ -422,6 +429,14 @@ a{
     line-height: 24px;
     text-transform: uppercase;
     color: #000000;
+}
+.send-button:hover{
+    background-color: #141414;
+    border: 1px solid white;
+    color: white;
+}
+.send-button:active{
+    background-color: gray;
 }
 .social-block{
     margin-top: 50px;
