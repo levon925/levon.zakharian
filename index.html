@@ -111,7 +111,7 @@
                     <!-- /.abtx2 -->
                 </div>
                 <div class="github">
-                    <a href="#">
+                    <a href="https://github.com/levon925">
                         <img class="github-image" src="img/github.png" alt="">
                     </a>
                 </div>
@@ -184,18 +184,18 @@
                         <a href="#" class="send-button">SEND</a>
                     </div>
                     <div class="social-media">
-                        <span class="contact-mail">contact@levonzakharian.com</span>
+                        <span class="contact-mail"><a href="mailto:contact@levonzakharian.com">contact@levonzakharian.com</a></span>
                         <div class="social">
                             <div class="social-position1">
                                 <div class="social-block">
-                                    <span class="media m1">instagram</span>
-                                    <span class="media m2">github</span>
+                                    <span class="media m1"><a class="media" href="https://www.instagram.com/levon925/">instagram</a></span>
+                                    <span class="media m2"><a class="media" href="https://github.com/levon925">github</a></span>
                                 </div>
                             </div>
                             <div class="social-position2">
                                 <div class="social-block scml">
-                                    <span class="media m1">facebook</span>
-                                    <span class="media m2">telegram</span>
+                                    <span class="media m1"><a class="media" href="https://www.facebook.com/levon.zaxarian.1">facebook</a></span>
+                                    <span class="media m2"><a class="media" href="https://t.me/PAGE_FAULT_IN_NONPAGED_AREA">telegram</a></span>
                                 </div>
                             </div>
                         </div>
@@ -207,8 +207,8 @@
                 <hr class="footer-hr">
                 <div class="footer-texts">
                     <span class="footer-text2">Levon Zakharian</span>
-                    <span class="footer-text">Developed by <a class="footer-link" href="#">me</a></span>
-                    <span class="footer-text3">Designed by <a class="footer-link" href="#">Lana Topchyan</a></span>
+                    <span class="footer-text">Developed by <a class="footer-link" href="https://www.facebook.com/levon.zaxarian.1">me</a></span>
+                    <span class="footer-text3">Designed by <a class="footer-link" href="https://www.behance.net/lanatopchy9fcc">Lana Topchyan</a></span>
                     <span class="footer-text">2021</span>
                 </div>
             </div>  
