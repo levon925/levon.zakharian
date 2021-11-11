@@ -343,9 +343,6 @@ a{
     background-color: white;
     color: #141414;
 }
-.show-more-button:active{
-    background-color: gray;
-}
 .footer{
     position: relative;
     margin: auto;
@@ -414,6 +411,9 @@ a{
     line-height: 42px;
     color: #FFFFFF;
 }
+.contact-mail:hover a{
+    color: gray;
+}
 .send-button{
     background-color: white;
     border: none;
@@ -435,9 +435,6 @@ a{
     border: 1px solid white;
     color: white;
 }
-.send-button:active{
-    background-color: gray;
-}
 .social-block{
     margin-top: 50px;
     position: relative;
@@ -453,6 +450,9 @@ a{
     font-size: 14px;
     line-height: 17px;
     color: rgba(255, 255, 255, 0.6);
+}
+.media:hover{
+    color: white;
 }
 .m1{
     top: 0;
