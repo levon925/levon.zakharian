@@ -308,6 +308,8 @@ line-height: 30px;
 }
 .website-link:hover img{
     transform: rotate(45deg);
+    transition: 0.3s;
+
 }
 .preview{
     position: absolute;
