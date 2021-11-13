@@ -299,8 +299,9 @@ a{
     
 }
 .website-link:hover{
-    transition: 0.3s;
+    
     background: rgba(255, 255, 255, 0.1); 
+    transition:background 0.3s;
     font-family: Inter;
 font-style: normal;
 font-weight: 600;
@@ -310,7 +311,6 @@ line-height: 30px;
 .website-link:hover img{
     transform: rotate(45deg);
     transition: 0.3s;
-
 }
 .preview{
     position: absolute;
@@ -335,6 +335,7 @@ line-height: 30px;
     position: absolute;
     top: 25px;
     left: 15px;
+    transition: 0;
     
 }
 .wbst{
