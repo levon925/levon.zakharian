@@ -299,11 +299,16 @@ a{
     
 }
 .website-link:hover{
-    background-color:#FFFFFF;
-    color: #141414;
-    
+    background: rgba(255, 255, 255, 0.1); 
+    font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
 }
-
+.website-link:hover img{
+    transform: rotate(45deg);
+}
 .preview{
     position: absolute;
     width: 300px;
@@ -323,9 +328,10 @@ a{
     
 }
 .website-link-text{
-    width: 100%;
+    width: 98%;
     position: absolute;
     top: 25px;
+    left: 15px;
     
 }
 .wbst{
@@ -413,6 +419,9 @@ a{
     font-size: 14px;
     line-height: 17px;
     color: rgba(255, 255, 255, 0.6); 
+}
+.input:active{
+    border: none;
 }
 .inpt{
     margin-top: 40px;
