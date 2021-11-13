@@ -312,6 +312,11 @@ line-height: 30px;
     transform: rotate(45deg);
     transition: 0.3s;
 }
+.website-link:hover .website-link-text{
+    left: 15px;
+    width: 98%;
+    transition:width left 0.3s;
+}
 .preview{
     position: absolute;
     width: 300px;
@@ -331,12 +336,9 @@ line-height: 30px;
     
 }
 .website-link-text{
-    width: 98%;
+    width: 99%;
     position: absolute;
-    top: 25px;
-    left: 15px;
-    transition: 0;
-    
+    top: 25px;  
 }
 .wbst{
     width: 114px;
