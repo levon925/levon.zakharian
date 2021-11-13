@@ -315,7 +315,7 @@ line-height: 30px;
 .website-link:hover .website-link-text{
     left: 15px;
     width: 98%;
-    transition:width left 0.3s;
+    transition:width left 1s;
 }
 .preview{
     position: absolute;
