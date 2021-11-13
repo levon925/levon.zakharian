@@ -227,11 +227,6 @@ a{
     height: 194px;
     position: relative;
 }
-.website-hr{
-    border: 1px solid rgba(255, 255, 255, 0.9);
-    border: none;
-    border-bottom: 1px solid;
-}
 .skills{
     float: center;
     height: 194px;
@@ -288,25 +283,65 @@ a{
     margin-left: 85px;
     max-width: 1115px;
     margin-top: 100px;
+    
 }
 .website{
-    margin-top: 25px;
-    margin-bottom: 25px;
     position: relative;
+}
+.website-hr{
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border: none;
+    border-bottom: 1px solid;
+    margin: 0;
+}
+.website-link{
+    height: 80px;
+    
+}
+.website-link:hover{
+    background-color:#FFFFFF;
+    color: #141414;
+    
+}
+
+.preview{
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transform: translate(10px,20px);
+    pointer-events: none;
+    z-index: 100;
+}
+.display-none{
+    display: none;
+}
+.preview-image{
+    width: 100%;
+    height: 100%;
+    
+}
+.website-link-text{
+    width: 100%;
+    position: absolute;
+    top: 25px;
+    
 }
 .wbst{
     width: 114px;
-    height: 30px;
+    height: 80px;
     left: 285px;
     top: 2897px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
+    
 }
 .open-site-arrow{
     position: absolute;
-    bottom: 0;
+    
     right: 0;
     width: 25px;
     height: 25px;
@@ -509,5 +544,5 @@ a{
 .footer-hr{
     background: rgba(255, 255, 255, 0.5);
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: 0px solid;
 }
