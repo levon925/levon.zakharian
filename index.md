@@ -15,6 +15,21 @@
     <!--End of animation script files-->
 </head>
 <body>
+    <div id="preview-block-1" class="display-none preview">
+        <img class="preview-image" src="img/website-1-preview.png" alt="">
+    </div>
+    <div id="preview-block-2" class="display-none preview">
+        <img class="preview-image" src="img/website-2-preview.png" alt="">
+    </div>
+    <div id="preview-block-3" class="display-none preview">
+        <img class="preview-image" src="img/website-3-preview.png" alt="">
+    </div>
+    <div id="preview-block-4" class="display-none preview">
+        <img class="preview-image" src="img/website-4-preview.png" alt="">
+    </div>
+    <div id="preview-block-5" class="display-none preview">
+        <img class="preview-image" src="img/website-5-preview.png" alt="">
+    </div>
     <div class="animation" id="animation">
         <!--header-->
         <div class="header">
@@ -115,40 +130,67 @@
                         <img class="github-image" src="img/github.png" alt="">
                     </a>
                 </div>
+
                 <div class="websites">
+
                     <hr class="website-hr">
                     <div class="website">
+
                         <a href="#" class="wbst">
-                            Website 1
-                            <img class="open-site-arrow" src="img/website-arrow.png" alt="">
+                            <div id="preview-1" class="website-link preview-1">
+
+                                <span class="website-link-text">
+                                    Website 1
+                                    <img class="open-site-arrow" src="img/website-arrow.png" alt="">
+                                </span>
+                            </div>
                         </a>
                     </div>
                     <hr class="website-hr">
                     <div class="website">
                         <a href="#" class="wbst">
-                            Website 2
-                            <img class="open-site-arrow" src="img/website-arrow.png" alt="">
+                            <div id="preview-2" class="website-link prebiew-2">
+
+                                <span class="website-link-text">
+                                    Website 2
+                                    <img class="open-site-arrow" src="img/website-arrow.png" alt="">
+                                </span>
+                            </div>
+                    </div>
+                    <hr class="website-hr">
+                    <div class="website">
+                        <a href="#" class="wbst">
+                            <div id="preview-3" class="website-link preview-3">
+
+                                <span class="website-link-text">
+                                    Website 3
+                                    <img class="open-site-arrow" src="img/website-arrow.png" alt="">
+                                </span>
+                            </div>
                         </a>
                     </div>
                     <hr class="website-hr">
                     <div class="website">
                         <a href="#" class="wbst">
-                            Website 3
-                            <img class="open-site-arrow" src="img/website-arrow.png" alt="">
+                            <div id="preview-4" class="website-link preview-4">
+
+                                <span class="website-link-text">
+                                    Website 4
+                                    <img class="open-site-arrow" src="img/website-arrow.png" alt="">
+                                </span>
+                            </div>
                         </a>
                     </div>
                     <hr class="website-hr">
                     <div class="website">
                         <a href="#" class="wbst">
-                            Website 4
-                            <img class="open-site-arrow" src="img/website-arrow.png" alt="">
-                        </a>
-                    </div>
-                    <hr class="website-hr">
-                    <div class="website">
-                        <a href="#" class="wbst">
-                            Website 5
-                            <img class="open-site-arrow" src="img/website-arrow.png" alt="">
+                            <div id="preview-5" class="website-link preview-5">
+
+                                <span class="website-link-text">
+                                    Website 5
+                                    <img class="open-site-arrow" src="img/website-arrow.png" alt="">
+                                </span>
+                            </div>
                         </a>  
                     </div>
                     <hr class="website-hr">
@@ -213,6 +255,9 @@
                 </div>
             </div>  
     </div>
+    <!--preview-->
+    <script src="js/preview.js"></script>
+    <!--preview-end-->
     <!--Animation-->
     <script src="js/three.min.js"></script>
     <script src="js/vanta.net.min.js"></script>
