@@ -223,33 +223,34 @@ a{
     line-height: 140%;
 }
 .my-skills{
-    max-width: 916px;
+    max-width: 1018px;
     margin-top: 150px;
-    height: 194px;
+    height: 306px;
     position: relative;
 }
 .skills{
     float: center;
-    height: 194px;
-    width: 551px;
+    height: 306px;
+    width: 653px;
     display: block;
     margin-left: 365px;
 }
 .skill-list{
-    width: 102px;
+    width: 204px;
     position: absolute;
     bottom: 0;
 }
 .slr{
+    
     right: 0;
 }
 .skill{
-    width: 58px;
-    height: 28px;
+    width: 204px;
+    height: 56px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 40px;
     line-height: 140%;
     display: block;
     margin-top: 0;
@@ -259,20 +260,22 @@ a{
 }
 .my-rewards{
     margin-top: 150px;
+
 }
 .rwrddb{
     margin-top: 25px;
     display: block;
 }
 .reward-years{
-    width: 128px;
-    height: 35px;
+    width: 236px;
+    height: 45px;
     display: block;
-    font-family: Inter;
+    font-family: Monument_Extended;
     font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
+    font-weight: normal;
+    font-size: 32px;
     line-height: 140%;
+    border-bottom: 1px solid #ffffff;
 }
 .projects{
     position: relative;
@@ -286,17 +289,32 @@ a{
     margin-top: 100px;
     
 }
+.websites:hover{
+    opacity: 0.4;
+}
+
 .website{
     position: relative;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.9);
+    border-top: 0.5px solid rgba(255, 255, 255, 0.9);
+    
+    
 }
 .website-hr{
+    /*
     border: 1px solid rgba(255, 255, 255, 0.9);
     border: none;
     border-bottom: 1px solid;
     margin: 0;
+    */
+    border: none;
+    margin: 0;
+
 }
 .website-link{
     height: 80px;
+
+
     
 }
 .website-link:hover{
@@ -308,15 +326,17 @@ font-style: normal;
 font-weight: 600;
 font-size: 25px;
 line-height: 30px;
+
 }
 .website-link:hover img{
     transform: rotate(45deg);
     transition: 0.3s;
 }
 .website-link:hover .website-link-text{
-    left: 15px;
-    width: 98%;
+    left: 55px;
+    width: 94%;
     transition:width left 1s;
+    
 }
 .preview{
     position: absolute;
@@ -344,8 +364,7 @@ line-height: 30px;
 .wbst{
     width: 114px;
     height: 80px;
-    left: 285px;
-    top: 2897px;
+
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
