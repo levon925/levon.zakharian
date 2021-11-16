@@ -258,6 +258,9 @@
     <!--preview-->
     <script src="js/preview.js"></script>
     <!--preview-end-->
+    <!--scroll-->
+    <script src="js/scroll.js"></script>
+    <!--scroll-end-->
     <!--Animation-->
     <script src="js/three.min.js"></script>
     <script src="js/vanta.net.min.js"></script>
