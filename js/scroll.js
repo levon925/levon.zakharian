@@ -1,4 +1,4 @@
-const anchors = document.querySelectorAll('a.menu-btn')
+const anchors = document.querySelectorAll('a.scrolls')
 
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
