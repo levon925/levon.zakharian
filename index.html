@@ -30,26 +30,26 @@
     <div id="preview-block-5" class="display-none preview">
         <img class="preview-image" src="img/website-5-preview.png" alt="">
     </div>
-    <div class="animation element-animation" id="animation">
+    <div class="animation" id="animation">
         <!--header-->
-        <div class="header element-animation">
+        <div class="header">
             <a href="/" class="logo">Levon Zakharian</a>
             <div class="menu-btns">
-                <a href="#about" class="menu-btn">About me</a>
-                <a href="#projects" class="menu-btn">Projects</a>
-                <a href="#contacts" class="menu-btn">Contacts</a>
+                <a href="#about" class="menu-btn scrolls">About me</a>
+                <a href="#projects" class="menu-btn scrolls">Projects</a>
+                <a href="#contacts" class="menu-btn scrolls">Contacts</a>
             </div>
         </div>
         <!-- /.header -->
-        <div class="main-texts element-animation">
-            <div class="tx1">
-                <span class="main-text">FRONT-END</span>
+        <div class="main-texts">
+            <div class="tx1 text-wrapper">
+                <span class="main-text text">FRONT-END</span>
             </div>
-            <div class="tx2">
-                <span class="main-text tx2">DEVELOPER BASED</span>
+            <div class="tx2 text-wrapper">
+                <span class="main-text tx2 text">DEVELOPER BASED</span>
             </div>
-            <div class="tx3">
-                <span class="main-text tx3">IN TBILISI</span>
+            <div class="tx3 text-wrapper">
+                <span class="main-text tx3 text">IN TBILISI</span>
             </div>
         </div>
         <!-- /.main-texts -->
@@ -244,6 +244,8 @@
                     </div>
                 </div>
             </div>
+            
+            <a href="#animation" class="scroll-up scrolls" id="scrolling-up"><div class="circle"></div></a>
             <!-- /.footer -->
             <div class="real-footer element-animation">
                 <hr class="footer-hr">
@@ -254,7 +256,11 @@
                     <span class="footer-text">2021</span>
                 </div>
             </div>  
+            
+
     </div>
+
+    
     <!--preview-->
     <script src="js/preview.js"></script>
     <!--preview-end-->
@@ -267,5 +273,16 @@
     <script src="js/vanta.net.min.js"></script>
     <script src="js/animation.js"></script>
     <!--Animation-end-->
+    <!--scroll-up-->
+    <script src="js/scroll-up.js"></script>
+    <!--scroll-up-end-->
+    <!--jquery-->
+    <script src="js/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <!--jquery-end-->
+    <!--scroll to fixed-->
+    <script src="js/jquery-scrolltofixed-min.js" type="text/javascript"></script>
+    <!-- scroll to fixed end-->
+    
+    
 </body>
 </html>
