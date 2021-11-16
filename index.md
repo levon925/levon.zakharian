@@ -156,6 +156,7 @@
                                     <img class="open-site-arrow" src="img/website-arrow.png" alt="">
                                 </span>
                             </div>
+                        </a>
                     </div>
                     <hr class="website-hr element-animation">
                     <div class="website element-animation">
