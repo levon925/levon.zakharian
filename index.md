@@ -30,9 +30,9 @@
     <div id="preview-block-5" class="display-none preview">
         <img class="preview-image" src="img/website-5-preview.png" alt="">
     </div>
-    <div class="animation" id="animation">
+    <div class="animation element-animation" id="animation">
         <!--header-->
-        <div class="header">
+        <div class="header element-animation">
             <a href="/" class="logo">Levon Zakharian</a>
             <div class="menu-btns">
                 <a href="#about" class="menu-btn">About me</a>
@@ -41,7 +41,7 @@
             </div>
         </div>
         <!-- /.header -->
-        <div class="main-texts">
+        <div class="main-texts element-animation">
             <div class="tx1">
                 <span class="main-text">FRONT-END</span>
             </div>
@@ -57,7 +57,7 @@
     <!-- /.animation(header) -->
     <div class="main-content">
             <div class="about" id="about">
-                <div class="about-header">
+                <div class="about-header element-animation">
                     <div class="about-texts">
                         <div class="abtx1">
                             <span class="about-text">Let's get</span>
@@ -75,14 +75,14 @@
                     </div>
                 </div>
                 <div class="about-content">
-                    <div class="about-me">
+                    <div class="about-me element-animation">
                         <span class="about-me-title">ABOUT ME</span>
                         <div class="about-me-img"><img class="my-photo" src="img/my-photo.png" alt="">
                             <span class="about-me-text">Hi! My name is Levon Zakarian, I'm a 22 years old front-end developer, based in Tbilisi, Georgia, and working in the whole world, so you can work with me, if you need a hight quality web-page for your work or for personal use.</span>
                         </div>
                     </div>
                     <!-- /.about-me -->
-                    <div class="my-skills">
+                    <div class="my-skills element-animation">
                         <span class="about-me-title">my skills</span>
                         <div class="skills">
                             <div class="skill-list">
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                     <!-- /.my-skills -->
-                    <div class="my-rewards">
+                    <div class="my-rewards element-animation">
                         <span class="about-me-title">my rewards</span>
                         <div class="about-me-img"><img class="diploma" src="img/diploma.jpg" alt="">
                             <div class="about-me-text">
@@ -115,7 +115,7 @@
             </div>
             <!-- /.about -->
             <div class="projects" id="projects">
-                <div class="about-texts">
+                <div class="about-texts element-animation">
                     <div class="prjct1">
                         <span class="about-text">See my</span>
                     </div>
@@ -125,7 +125,7 @@
                     </div>
                     <!-- /.abtx2 -->
                 </div>
-                <div class="github">
+                <div class="github element-animation">
                     <a href="https://github.com/levon925">
                         <img class="github-image" src="img/github.png" alt="">
                     </a>
@@ -133,8 +133,8 @@
 
                 <div class="websites">
 
-                    <hr class="website-hr">
-                    <div class="website">
+                    <hr class="website-hr element-animation">
+                    <div class="website element-animation">
 
                         <a href="#" class="wbst">
                             <div id="preview-1" class="website-link preview-1">
@@ -146,8 +146,8 @@
                             </div>
                         </a>
                     </div>
-                    <hr class="website-hr">
-                    <div class="website">
+                    <hr class="website-hr element-animation">
+                    <div class="website element-animation">
                         <a href="#" class="wbst">
                             <div id="preview-2" class="website-link prebiew-2">
 
@@ -157,8 +157,8 @@
                                 </span>
                             </div>
                     </div>
-                    <hr class="website-hr">
-                    <div class="website">
+                    <hr class="website-hr element-animation">
+                    <div class="website element-animation">
                         <a href="#" class="wbst">
                             <div id="preview-3" class="website-link preview-3">
 
@@ -169,8 +169,8 @@
                             </div>
                         </a>
                     </div>
-                    <hr class="website-hr">
-                    <div class="website">
+                    <hr class="website-hr element-animation">
+                    <div class="website element-animation">
                         <a href="#" class="wbst">
                             <div id="preview-4" class="website-link preview-4">
 
@@ -181,8 +181,8 @@
                             </div>
                         </a>
                     </div>
-                    <hr class="website-hr">
-                    <div class="website">
+                    <hr class="website-hr element-animation">
+                    <div class="website element-animation">
                         <a href="#" class="wbst">
                             <div id="preview-5" class="website-link preview-5">
 
@@ -193,17 +193,17 @@
                             </div>
                         </a>  
                     </div>
-                    <hr class="website-hr">
+                    <hr class="website-hr element-animation">
                 </div>
-                <div class="show-more">
+                <div class="show-more element-animation">
                     <a href="#" class="show-more-button">
                         SHOW MORE
                     </a>
                 </div>
             </div>
             <!-- /.projects -->
-            <div class="footer" id="contacts">
-                <div class="about-texts">
+            <div class="footer element-animation" id="contacts">
+                <div class="about-texts element-animation">
                     <div class="ftr1">
                         <span class="about-text">Let's work</span>
                     </div>
@@ -213,19 +213,19 @@
                     </div>
                     <!-- /.abtx2 -->
                 </div>
-                <div class="contact-me">
+                <div class="contact-me element-animation">
                     <a href="#" class="about-more">CONTACT ME
                         <img src="img/arrow-about.png" alt="" class="about-arrow">
                     </a>
                 </div>
                 <div class="contact">
-                    <div class="say-hello">
+                    <div class="say-hello element-animation">
                         <span class="hello-text">Say Hello</span>
                         <input class="input inpt" type="text" placeholder="Enter your e-mail">
                         <input class="input" type="text" placeholder="Enter your message">
                         <a href="#" class="send-button">SEND</a>
                     </div>
-                    <div class="social-media">
+                    <div class="social-media element-animation">
                         <span class="contact-mail"><a href="mailto:contact@levonzakharian.com">contact@levonzakharian.com</a></span>
                         <div class="social">
                             <div class="social-position1">
@@ -245,7 +245,7 @@
                 </div>
             </div>
             <!-- /.footer -->
-            <div class="real-footer">
+            <div class="real-footer element-animation">
                 <hr class="footer-hr">
                 <div class="footer-texts">
                     <span class="footer-text2">Levon Zakharian</span>
@@ -261,6 +261,7 @@
     <!--scroll-->
     <script src="js/scroll.js"></script>
     <!--scroll-end-->
+    <script src="js/element-animation.js"></script>
     <!--Animation-->
     <script src="js/three.min.js"></script>
     <script src="js/vanta.net.min.js"></script>
