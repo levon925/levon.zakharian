@@ -33,23 +33,23 @@
     <div class="animation" id="animation">
         <!--header-->
         <div class="header">
-            <a href="/" class="logo">Levon Zakharian</a>
+            <a href="/" class="logo cursor-pointer">Levon Zakharian</a>
             <div class="menu-btns">
-                <a href="#about" class="menu-btn scrolls">About me</a>
-                <a href="#projects" class="menu-btn scrolls">Projects</a>
-                <a href="#contacts" class="menu-btn scrolls">Contacts</a>
+                <a href="#about" class="menu-btn scrolls cursor-pointer">About me</a>
+                <a href="#projects" class="menu-btn scrolls cursor-pointer">Projects</a>
+                <a href="#contacts" class="menu-btn scrolls cursor-pointer">Contacts</a>
             </div>
         </div>
         <!-- /.header -->
         <div class="main-texts">
             <div class="tx1 text-wrapper">
-                <span class="main-text text">FRONT-END</span>
+                    <span class="main-text text">FRONT-END</span>
             </div>
             <div class="tx2 text-wrapper">
-                <span class="main-text tx2 text">DEVELOPER BASED</span>
+                <span class="main-text text">DEVELOPER BASED</span>
             </div>
             <div class="tx3 text-wrapper">
-                <span class="main-text tx3 text">IN TBILISI</span>
+                <span class="main-text text">IN TBILISI</span>
             </div>
         </div>
         <!-- /.main-texts -->
@@ -69,7 +69,7 @@
                         <!-- /.abtx2 -->
                     </div>
                     <div class="about-button">
-                        <a href="#" class="about-more">MORE ABOUT ME
+                        <a href="#contacts" class="about-more scrolls">contact me
                             <img src="img/arrow-about.png" alt="" class="about-arrow">
                         </a>
                     </div>
@@ -127,18 +127,14 @@
                 </div>
                 <div class="github element-animation">
                     <a href="https://github.com/levon925">
-                        <img class="github-image" src="img/github.png" alt="">
+                        <img class="github-image cursor-pointer" src="img/github.png" alt="">
                     </a>
                 </div>
-
                 <div class="websites">
-
                     <hr class="website-hr element-animation">
                     <div class="website element-animation">
-
                         <a href="#" class="wbst">
                             <div id="preview-1" class="website-link preview-1">
-
                                 <span class="website-link-text">
                                     Website 1
                                     <img class="open-site-arrow" src="img/website-arrow.png" alt="">
@@ -150,7 +146,6 @@
                     <div class="website element-animation">
                         <a href="#" class="wbst">
                             <div id="preview-2" class="website-link prebiew-2">
-
                                 <span class="website-link-text">
                                     Website 2
                                     <img class="open-site-arrow" src="img/website-arrow.png" alt="">
@@ -162,7 +157,6 @@
                     <div class="website element-animation">
                         <a href="#" class="wbst">
                             <div id="preview-3" class="website-link preview-3">
-
                                 <span class="website-link-text">
                                     Website 3
                                     <img class="open-site-arrow" src="img/website-arrow.png" alt="">
@@ -174,7 +168,6 @@
                     <div class="website element-animation">
                         <a href="#" class="wbst">
                             <div id="preview-4" class="website-link preview-4">
-
                                 <span class="website-link-text">
                                     Website 4
                                     <img class="open-site-arrow" src="img/website-arrow.png" alt="">
@@ -186,7 +179,6 @@
                     <div class="website element-animation">
                         <a href="#" class="wbst">
                             <div id="preview-5" class="website-link preview-5">
-
                                 <span class="website-link-text">
                                     Website 5
                                     <img class="open-site-arrow" src="img/website-arrow.png" alt="">
@@ -195,9 +187,44 @@
                         </a>  
                     </div>
                     <hr class="website-hr element-animation">
+                    <div class="display-none" id="block1">
+                        <div class="website element-animation">
+                            <a href="#" class="wbst">
+                                <div id="preview-5" class="website-link preview-5">
+                                    <span class="website-link-text">
+                                        Website 6
+                                        <img class="open-site-arrow" src="img/website-arrow.png" alt="">
+                                    </span>
+                                </div>
+                            </a>  
+                        </div>
+                        <hr class="website-hr element-animation">
+                        <div class="website element-animation">
+                            <a href="#" class="wbst">
+                                <div id="preview-5" class="website-link preview-5">
+                                    <span class="website-link-text">
+                                        Website 7
+                                        <img class="open-site-arrow" src="img/website-arrow.png" alt="">
+                                    </span>
+                                </div>
+                            </a>  
+                        </div>
+                        <hr class="website-hr element-animation">
+                        <div class="website element-animation">
+                            <a href="#" class="wbst">
+                                <div id="preview-5" class="website-link preview-5">
+                                    <span class="website-link-text">
+                                        Website 8
+                                        <img class="open-site-arrow" src="img/website-arrow.png" alt="">
+                                    </span>
+                                </div>
+                            </a>  
+                        </div>
+                        <hr class="website-hr element-animation">
+                    </div>
                 </div>
-                <div class="show-more element-animation">
-                    <a href="#" class="show-more-button">
+                <div class="show-more element-animation" id="show-more">
+                    <a class="show-more-button cursor-pointer">
                         SHOW MORE
                     </a>
                 </div>
@@ -215,53 +242,48 @@
                     <!-- /.abtx2 -->
                 </div>
                 <div class="contact-me element-animation">
-                    <a href="#" class="about-more">CONTACT ME
+                    <a href="#about" class="about-more scrolls">about me
                         <img src="img/arrow-about.png" alt="" class="about-arrow">
                     </a>
                 </div>
                 <div class="contact">
                     <div class="say-hello element-animation">
                         <span class="hello-text">Say Hello</span>
-                        <input class="input inpt" type="text" placeholder="Enter your e-mail">
-                        <input class="input" type="text" placeholder="Enter your message">
-                        <a href="#" class="send-button">SEND</a>
+                        <input name="e-mail" class="input inpt cursor-text e-mail" type="email" placeholder="Enter your e-mail" required>
+                        <input name="message" class="input cursor-text message" type="text" placeholder="Enter your message" required>
+                        <button href="#" class="send-button cursor-pointer" id="send">SEND</button>
                     </div>
                     <div class="social-media element-animation">
-                        <span class="contact-mail"><a href="mailto:contact@levonzakharian.com">contact@levonzakharian.com</a></span>
+                        <span class="contact-mail"><a class="cursor-pointer" href="mailto:contact@levonzakharian.com">contact@levonzakharian.com</a></span>
                         <div class="social">
                             <div class="social-position1">
                                 <div class="social-block">
-                                    <span class="media m1"><a class="media" href="https://www.instagram.com/levon925/">instagram</a></span>
-                                    <span class="media m2"><a class="media" href="https://github.com/levon925">github</a></span>
+                                    <span class="media m1"><a class="media cursor-pointer" href="https://www.instagram.com/levon925/">instagram</a></span>
+                                    <span class="media m2"><a class="media cursor-pointer" href="https://github.com/levon925">github</a></span>
                                 </div>
                             </div>
                             <div class="social-position2">
                                 <div class="social-block scml">
-                                    <span class="media m1"><a class="media" href="https://www.facebook.com/levon.zaxarian.1">facebook</a></span>
-                                    <span class="media m2"><a class="media" href="https://t.me/PAGE_FAULT_IN_NONPAGED_AREA">telegram</a></span>
+                                    <span class="media m1"><a class="media cursor-pointer" href="https://www.facebook.com/levon.zaxarian.1">facebook</a></span>
+                                    <span class="media m2"><a class="media cursor-pointer" href="https://t.me/PAGE_FAULT_IN_NONPAGED_AREA">telegram</a></span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            <a href="#animation" class="scroll-up scrolls" id="scrolling-up"><div class="circle"></div></a>
+            </div> 
+            <a href="#animation" class="scroll-up scrolls cursor-pointer" id="scrolling-up"><div class="circle cursor-pointer"></div></a>
             <!-- /.footer -->
             <div class="real-footer element-animation">
                 <hr class="footer-hr">
                 <div class="footer-texts">
                     <span class="footer-text2">Levon Zakharian</span>
-                    <span class="footer-text">Developed by <a class="footer-link" href="https://www.facebook.com/levon.zaxarian.1">me</a></span>
-                    <span class="footer-text3">Designed by <a class="footer-link" href="https://www.behance.net/lanatopchy9fcc">Lana Topchyan</a></span>
+                    <span class="footer-text">Developed by <a class="footer-link cursor-pointer" href="https://www.facebook.com/levon.zaxarian.1">me</a></span>
+                    <span class="footer-text">Designed by <a class="footer-link cursor-pointer" href="https://www.behance.net/lanatopchy9fcc">Lana Topchyan</a></span>
                     <span class="footer-text">2021</span>
                 </div>
             </div>  
-            
-
     </div>
-
-    
     <!--preview-->
     <script src="js/preview.js"></script>
     <!--preview-end-->
@@ -275,15 +297,14 @@
     <script src="js/animation.js"></script>
     <!--Animation-end-->
     <!--scroll-up-->
-    <script src="js/scroll-up.js"></script>
+    <script src="js/scrolling-up.js"></script>
     <!--scroll-up-end-->
     <!--jquery-->
-    <script src="js/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
     <!--jquery-end-->
-    <!--scroll to fixed-->
-    <script src="js/jquery-scrolltofixed-min.js" type="text/javascript"></script>
-    <!-- scroll to fixed end-->
-    
-    
+    <!--more content-->
+    <script src="js/more-content.js"></script>
+    <!--more content end-->
+    <script src="js/form.js"></script>
 </body>
 </html>
