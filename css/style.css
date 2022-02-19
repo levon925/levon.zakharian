@@ -1,0 +1,2042 @@
+@font-face {
+    font-family: Monument_Extended;
+    src: url(../fonts/MonumentExtended-Regular.otf);
+}
+*{
+    cursor:/*url(/img/cursor.png),*/url(/img/arrow_ultra.cur),default;
+}
+body{
+    color: #FFFFFF;
+    height: 100%;
+    background-color: #141414;
+    
+}
+a{
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+@media screen and (min-width:320px){
+    .github{
+        position: absolute;
+        right: 0;
+        top: 60px;
+        float: right;
+        
+    }
+    .github-image{
+        opacity: 0.5;
+        width: 30px;
+    }
+    .pc-github{
+        display: none;
+    }
+    .mobile-github{
+        display: block;
+    }
+    .pc-texts{
+        display: none;
+    }
+    .mobile-texts{
+        display: block;
+    }
+    .main-text{
+        text-decoration: none;
+        font-family: Monument_Extended;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 120%;  
+    }
+    .main-texts{
+        max-width: 292px;
+        position: relative;
+        top: 30%;
+        margin: auto;
+        max-height: 77px;
+    }
+    .tx3{
+        text-align: left;
+        max-width: 292px;
+    }
+    .header{
+        margin: auto;
+        margin-top: 54px;
+        max-width: 280px;
+        height: 20px;
+        position: relative;
+    }
+    .menu-btns{
+        position: absolute;
+        display: none;
+        right: 0;
+    }
+    .main-content{
+        margin-top: 100px;
+    }
+    .about{
+        width: 280px; 
+    }
+    .about-header{
+        max-width: 238px;
+        max-height: 77px;
+    }
+    .about-text{
+        font-size: 30px;
+    }
+    .abtx1{
+        text-align:left;
+        max-width: 238px;
+    }
+    .abtx2{
+        text-align:right;
+        max-width: 238px;
+    }
+    .about-content{
+        margin-left: 0px; 
+    }
+    .about-me{
+        margin-top: 50px;
+        height: 505px;
+    }
+    .about-me-title{
+        width: 145px;
+        margin-bottom: 25px;
+        font-size: 20px;
+        height: 28px;
+    }
+    .about-me-text{
+        margin-left: 0px;
+        font-size: 16px;
+        width: 280px;
+    }
+    .my-photo{
+        width: 280px;
+    }
+    .about-me-img{
+        float: center;
+        
+        
+    }
+    .pc{
+        display: none;
+    }
+    .mobile{
+        margin-top: 25px;
+        float: right;
+        display: flex;
+        width: 280px;
+    }
+    .about-button{
+        
+        width: 140px;
+        height: 28px;
+        position: absolute;
+        left: 0;
+        top: 657px;  
+     }
+     .my-skills{
+        max-width: 280px;/*568*/
+        margin-top: 80px; /*80*/
+        height: 530px;/*203*/
+        position: relative;
+    }
+    .skills{
+        float: center;
+        height: 476px;/*203*/
+        width: 280px;/*298*/
+        display: block;
+        margin-top: 154px;/*271*/
+    }
+    .skill-list{
+        width: 280px;/*128*/
+        position: absolute;
+        bottom: 0;
+        top: 54px;
+    }
+    .skill{
+        width: 128px;/*128*/
+        height: 35px;/*35*/
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;/*25*/
+        line-height: 140%;
+        display: block;
+        margin-top: 0;
+    }
+    .slr{
+        top:280px;
+    }
+    .sm{
+        margin-top: 20px;
+    }
+    .my-rewards{
+        margin-top: 80px;
+        height: 420px;
+    
+    }
+    .diploma{
+        width: 280px;
+        height: 197px;
+    }
+    .reward-years{
+        width: 281px;
+        height: 31px;
+        display: block;
+        font-family: Monument_Extended;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 140%;
+        border-bottom: 1px solid #ffffff;
+    }
+    .rwrddb{
+        margin-top: 20px;
+        display: block;
+    }
+    .mobile-years{
+        margin-top: 15px;
+        float: right;
+        
+        width: 281px;
+    }
+    .pc-years{
+        display: none;
+    }
+    .projects{
+        position: relative;
+        margin: auto;
+        width: 280px;
+        margin-top: 60px;
+    }
+    .prjct1{
+        text-align: left;
+        max-width: 177px;
+    }
+    .prjct2{
+        text-align:right;
+        max-width: 177px;
+    }
+    .websites{
+        margin-left: 0px; /*60*/
+        max-width: 280px; /*960*/
+        margin-top: 50px; /*70*/
+    }
+    .show-more{
+        max-width: 280px;
+    }
+
+    .show-more-button{
+        margin-top: 50px; /*70*/
+        margin-left: 0px; /*295*/
+        padding: 23px 76px;
+        background-color: transparent;
+        border: 1px solid white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        width: 127px;
+        height: 24px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+    }
+    .footer{
+        position: relative;
+        margin: auto;
+        width: 280px;
+        margin-top: 100px;
+    }
+    .ftr1{
+        text-align:left;
+        max-width: 232px;
+    }
+    .ftr2{
+        text-align:right;
+        max-width: 191px;
+    }
+    .contact-me{
+        float: right;
+        width: 116px;
+        height: 22px;
+        position: absolute;
+        right: 0;
+        top: 140px;
+     }
+     .contact{
+        margin-top: 50px; /*60*/
+        margin-left: 0px; /*60*/
+        height: 410px;
+        position: relative;
+        max-width: 280px; /*960*/
+    }
+    .input{
+        width: 280px;
+        height: 32px;
+        margin-bottom: 30px;
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(255, 255, 255, 0.6); 
+    }
+    .hello-text{
+        width: 111px;
+        height: 30px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+        margin-left: 0px;
+    }
+    .inpt{
+        margin-top: 30px;
+    }
+    .send-button{
+        background-color: white;
+        border: none;
+        padding: 18px 112px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .social-media{
+        margin-top: 290px;
+        width: 279px; /*418*/
+        height: 121px; /*157*/
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .contact-mail{
+        width: 279px;/*418*/
+        height: 24px;/*36*/
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;/*30*/
+        line-height: 42px;
+        color: #FFFFFF;
+    }
+    .media{
+        position: absolute;
+        height: 20px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 17px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .social-block{
+        margin-top: 32px;/*56*/
+        position: relative;
+        width: 66px;
+        height: 65px;
+    }
+    .footer-texts{
+        max-width: 280px;
+        margin: 20px auto;
+        height: 45px;
+        position: relative;
+    }
+    .real-footer{
+    
+        margin-top: 56px;
+        height: 90px;
+    }
+    
+    .footer-text{
+        margin-left: 82px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+    }
+
+    .footer-text2{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+    }
+
+    .footer-text3{
+        margin-left: 86px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .footer-text4{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        margin-left: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .social{
+        position: relative;
+        width: 205px;
+    }
+
+}
+
+@media screen and (min-width:640px){
+
+    .pc-github{
+        display: block;
+    }
+    .mobile-github{
+        display: none;
+    }
+    .pc-texts{
+        display: block;
+    }
+    .mobile-texts{
+        display: none;
+    }
+    .main-text{
+        text-decoration: none;
+        font-family: Monument_Extended;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 45px;
+        line-height: 120%;  
+    }
+    .main-texts{
+        max-width: 581px;
+        position: relative;
+        top: 23%;
+        margin: auto;
+        max-height: 77px;
+    }
+    .main-content{
+        margin-top: 110px;
+    }
+    .tx1{
+        text-align: right;
+        max-width: 581px;
+    }
+    .tx2{
+        text-align: center;
+        max-width: 581px;
+    }
+    .tx3{
+        text-align: left;
+        max-width: 581px;
+    }
+    .menu-btns{
+        position: absolute;
+        display: none;
+        right: 0;
+    }
+    .about{
+        width: 600px; 
+    }
+    .about-header{
+        max-width: 600px;
+        max-height: 77px;
+    }
+    .about-text{
+        font-size: 30px;
+    }
+    .abtx1{
+        text-align:left;
+        max-width: 238px;
+    }
+    .abtx2{
+        text-align:right;
+        max-width: 268px;
+    }
+   
+    .about-button{
+        float: right;
+        width: 135px;
+        height: 28px;
+        position: absolute;
+        right: 0;
+        top: 55px;
+        left: auto;
+        
+        
+        
+        
+     }
+    .about-more{
+        font-size: 16px;
+        
+    }
+    .about-arrow{
+        width: 13px;
+        height: 13px;
+    }
+    .about-content{
+        margin-left: 30px; 
+    }
+    .about-me{
+        margin-top: 60px;
+        height: 450px;
+    }
+    .about-me-title{
+        width: 145px;
+        margin-right: 126px;
+        font-size: 20px;
+        height: 200px;
+    }
+    .about-me-text{
+        margin-left: 20px;
+        font-size: 16px;
+        width: 310px;
+    }
+    .my-photo{
+        width: 300px;
+    }
+    .about-me-img{
+        float: center;
+        display: flex;
+        
+    }
+    .pc{
+        display: none;
+    }
+    .mobile{
+        margin-top: 25px;
+        float: right;
+        display: flex;
+        width: 300px;
+    }
+    .mobile-years{
+        margin-top: 15px;
+        float: right;
+        
+        width: 300px;
+    }
+    .pc-years{
+        display: none;
+    }
+    .my-skills{
+        max-width: 568px;/*568*/
+        margin-top: 80px; /*80*/
+        height: 203px;/*203*/
+        position: relative;
+    }
+    .skills{
+        float: center;
+        height: 203px;/*203*/
+        width: 298px;/*298*/
+        display: block;
+        margin-left: 271px;/*271*/
+    }
+    .skill-list{
+        width: 128px;/*128*/
+        position: absolute;
+        bottom: 0;
+        top: 0;
+    }
+    .slr{
+        top: 0;
+        right: 0;
+    }
+    .skill{
+        width: 128px;/*128*/
+        height: 35px;/*35*/
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;/*25*/
+        line-height: 140%;
+        display: block;
+        margin-top: 0;
+    }
+    .sm{
+        margin-top: 20px;
+    }
+    .my-rewards{
+        margin-top: 108px;
+        height: 382px;
+    
+    }
+    .diploma{
+        width: 300px;
+        height: 211px;
+    }
+    .reward-years{
+        width: 281px;
+        height: 31px;
+        display: block;
+        font-family: Monument_Extended;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 140%;
+        border-bottom: 1px solid #ffffff;
+    }
+    .rwrddb{
+        margin-top: 20px;
+        display: block;
+    }
+    .projects{
+        position: relative;
+        margin: auto;
+        width: 600px;
+        margin-top: 85px;
+    }
+    .prjct1{
+        text-align: left;
+        max-width: 161px;
+    }
+    .prjct2{
+        text-align:right;
+        max-width: 207px;
+    }
+    .github{
+        position: absolute;
+        right: 0;
+        top: 50px;
+        float: right;
+    }
+    .github-image{
+        opacity: 0.5;
+        width: 100px;
+    }
+    .websites{
+        margin-left: 29px; /*60*/
+        max-width: 571px; /*960*/
+        margin-top: 50px; /*70*/
+    }
+    .show-more{
+        max-width: 600px;
+    }
+
+    .show-more-button{
+        margin-top: 50px; /*70*/
+        margin-left: 160px; /*295*/
+        padding: 23px 76px;
+        background-color: transparent;
+        border: 1px solid white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        width: 127px;
+        height: 24px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+    }
+    .footer{
+        position: relative;
+        margin: auto;
+        width: 600px;
+        margin-top: 110px;
+    }
+    .ftr1{
+        text-align:left;
+        max-width: 232px;
+    }
+    .ftr2{
+        text-align:right;
+        max-width: 221px;
+    }
+    .contact-me{
+        float: right;
+        width: 115px;
+        height: 22px;
+        position: absolute;
+        right: 0;
+        top: 55px;
+     }
+     .contact{
+        margin-top: 50px; /*60*/
+        margin-left: 0px; /*60*/
+        height: 255px;
+        position: relative;
+        max-width: 600px; /*960*/
+    }
+    .social-media{
+        margin-top: 64px;
+        width: 279px; /*418*/
+        height: 121px; /*157*/
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .contact-mail{
+        width: 279px;/*418*/
+        height: 24px;/*36*/
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;/*30*/
+        line-height: 42px;
+        color: #FFFFFF;
+    }
+    .say-hello{
+        width:280px;
+    }
+    .hello-text{
+        width: 111px;
+        height: 30px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+        margin-left: 30px;
+    }
+    .input{
+        width: 280px;
+        height: 32px;
+        margin-bottom: 30px;
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(255, 255, 255, 0.6); 
+    }
+    .send-button{
+        background-color: white;
+        border: none;
+        padding: 18px 112px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .inpt{
+        margin-top: 30px;
+    }
+    .social-block{
+        margin-top: 32px;/*56*/
+        position: relative;
+        width: 66px;
+        height: 65px;
+    }
+    .social{
+        position: relative;
+        width: 205px;
+    }
+    .footer-texts{
+        max-width: 600px;
+        margin: 20px auto;
+    }
+    .real-footer{
+    
+        margin-top: 40px;
+        height: 60px;
+    }
+    
+    .footer-text{
+        position: relative;
+        margin-left: 68px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .footer-text2{
+        position: relative;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .footer-text3{
+        position: relative;
+        margin-left: 68px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .footer-text4{
+        position: relative;
+        margin-left: 68px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .media{
+        position: absolute;
+        height: 20px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 17px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .website-link:hover .website-link-text{
+        left: 55px;
+        width: 90%;
+        transition:width left 1s;
+        
+    }
+    .header{
+        margin: auto;
+        margin-top: 54px;
+        max-width: 600px;
+        height: 20px;
+        position: relative;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .pc-github{
+        display: block;
+    }
+    .mobile-github{
+        display: none;
+    }
+    .pc-texts{
+        display: block;
+    }
+    .mobile-texts{
+        display: none;
+    }
+    .main-text{
+        text-decoration: none;
+        font-family: Monument_Extended;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 65px;
+        line-height: 120%;  
+    }
+    .main-texts{
+        max-width: 830px;
+        position: relative;
+        top: 23%;
+        margin: auto;
+        max-height: 112px;
+    }
+    .main-content{
+        margin-top: 180px;
+    }
+    .tx1{
+        text-align: right;
+        max-width: 830px;
+    }
+    .tx2{
+        text-align: center;
+        max-width: 830px;
+    }
+    .tx3{
+        text-align: left;
+        max-width: 830px;
+    }
+    .about{
+        width: 960px; 
+    }
+    .about-me{
+        max-width: 900px;
+    }
+    .about-content{
+        margin-left: 60px; 
+    }
+    .about-header{
+        max-width: 960px;
+    }
+    .about-text{
+        font-size: 40px;
+    }
+    
+    .about-button{
+        float: right;
+        width: 135px;
+        height: 28px;
+        position: absolute;
+        right: 0;
+        top: 73px;  
+        left: auto;
+     }
+    
+    .about-more{
+        font-size: 16px;
+    }
+    .about-arrow{
+        width: 13px;
+        height: 13px;
+    }
+    .about-me{
+        margin-top: 70px;
+    }
+    .about-me-title{
+        width: 145px;
+        margin-right: 139px;
+        font-size: 20px;
+        height: 200px;
+    }
+    .about-me-text{
+        margin-left: 20px;
+        font-size: 16px;
+        width: 310px;
+    }
+    .my-photo{
+        width: 285px;
+    }
+    .abtx1{
+        text-align:left;
+        max-width: 320px;
+    }
+    .abtx2{
+        text-align:right;
+        max-width: 380px;
+    }
+    /*
+    .skills{
+        margin-left: 285px;
+        height: 248px;
+        width: 475px;
+        float: center;
+        display: block;
+    }
+    .skill{
+        font-size: 32px;
+        height: 56px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        
+        line-height: 140%;
+        display: block;
+        margin-top: 0;
+    }
+    .skill-list{
+        width: 170px;
+        position: absolute;
+        bottom: 0;
+    }
+    .my-skills{
+        max-width: 760px;
+        margin-top: 120px;
+        height: 250px;
+        position: relative;
+    }
+
+    .sm{
+        margin-top: 20px;
+    }*/
+    .my-skills{
+        max-width: 760px;/*568*/
+        margin-top: 120px; /*80*/
+        height: 250px;/*203*/
+        position: relative;
+    }
+    .skills{
+        float: center;
+        height: 248px;/*203*/
+        width: 475px;/*298*/
+        display: block;
+        margin-left: 285px;/*271*/
+    }
+    .skill-list{
+        width: 170px;/*128*/
+        position: absolute;
+        bottom: 0;
+        top: 0;
+    }
+    .slr{
+        top: 0;
+        right: 0;
+    }
+    .skill{
+        width: 159px;/*128*/
+        height: 45px;/*35*/
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;/*25*/
+        line-height: 140%;
+        display: block;
+        margin-top: 0;
+    }
+    .sm{
+        margin-top: 20px;
+    }
+    .my-rewards{
+        margin-top: 120px;
+        height: 200px;
+    
+    }
+    .diploma{
+        width: 285px;
+        height: 200px;
+    }
+    .projects{
+        position: relative;
+        margin: auto;
+        width: 960px;
+        margin-top: 180px;
+    }
+    .prjct1{
+        text-align: left;
+        max-width: 236px;
+    }
+    .prjct2{
+        text-align:right;
+        max-width: 297px;
+    }
+    .show-more{
+        max-width: 960px;
+    }
+
+    .show-more-button{
+        margin-top: 70px; /*70*/
+        margin-left: 295px; /*295*/
+        padding: 23px 121px;
+        background-color: transparent;
+        border: 1px solid white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        width: 127px;
+        height: 24px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+    }
+    .websites{
+        margin-left: 60px; /*60*/
+        max-width: 960px; /*960*/
+        margin-top: 70px; /*70*/
+    }
+    .footer{
+        position: relative;
+        margin: auto;
+        width: 960px;
+        margin-top: 180px;
+    }
+    .ftr1{
+        text-align:left;
+        max-width: 309px;
+    }
+    .ftr2{
+        text-align:right;
+        max-width: 323px;
+    }
+    .contact-me{
+        float: right;
+        width: 115px;
+        height: 22px;
+        position: absolute;
+        right: 0;
+        top: 74px;
+     }
+     .contact{
+        margin-top: 60px; /*60*/
+        margin-left: 70px; /*60*/
+        height: 255px;
+        position: relative;
+        max-width: 960px; /*960*/
+    }
+    .social-media{
+        margin-top: 64px;
+        width: 418px; /*418*/
+        height: 157px; /*157*/
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .contact-mail{
+        width: 418px;/*418*/
+        height: 36px;/*36*/
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;/*30*/
+        line-height: 42px;
+        color: #FFFFFF;
+    }
+    .social-block{
+        margin-top: 56px;/*56*/
+        position: relative;
+        width: 66px;
+        height: 65px;
+    }
+    .footer-texts{
+        max-width: 960px;
+        margin: 25px auto;
+    }
+    .real-footer{
+    
+        margin-top: 60px;
+        height: 80px;
+    }
+    
+    .footer-text{
+        position: relative;
+        margin-left: 166px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .footer-text2{
+        position: relative;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .footer-text3{
+        position: relative;
+        margin-left: 166px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .footer-text4{
+        position: relative;
+        margin-left: 166px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .menu-btns{
+        position: absolute;
+        display: block;
+        right: 0;
+    }
+    .about-me-img{
+        float: center;
+        display: flex;
+    }
+    .pc{
+        display: flex;
+    }
+    .mobile{
+        display: none;
+    }
+    .reward-years{
+        width: 236px;
+        height: 45px;
+        display: block;
+        font-family: Monument_Extended;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 140%;
+        border-bottom: 1px solid #ffffff;
+    }
+    .rwrddb{
+        margin-top: 25px;
+        display: block;
+    }
+    .mobile-years{
+        display: none;
+    }
+    .pc-years{
+        display: block;
+    }
+    .github{
+        position: absolute;
+        right: 0;
+        top: 71px;
+        float: right;
+        
+    }
+    .github-image{
+        opacity: 0.5;
+        width: 141px;
+    }
+    .say-hello{
+        width:365px;
+    }
+    .hello-text{
+        width: 111px;
+        height: 30px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .input{
+        width: 365px;
+        height: 32px;
+        margin-bottom: 30px;
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(255, 255, 255, 0.6); 
+    }
+    .send-button{
+        background-color: white;
+        border: none;
+        padding: 18px 155px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .inpt{
+        margin-top: 40px;
+    }
+    .social{
+        position: relative;
+        width: 319px;
+    }
+    .media{
+        position: absolute;
+        height: 20px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .website-link:hover .website-link-text{
+        left: 55px;
+        width: 94%;
+        transition:width left 1s;
+        
+    }
+    .preview{
+        position: absolute;
+        width: 300px;
+        height: 180px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        transform: translate(10px,20px);
+        pointer-events: none;
+        z-index: 100;
+        
+    }
+    .header{
+        margin: auto;
+        margin-top: 54px;
+        max-width: 960px;
+        height: 20px;
+        position: relative;
+    }
+    .pc-texts{
+        display: block;
+    }
+    .mobile-texts{
+        display: none;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .pc-github{
+        display: block;
+    }
+    .mobile-github{
+        display: none;
+    }
+    .main-text{
+        text-decoration: none;
+        font-family: Monument_Extended;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 80px;
+        line-height: 120%;  
+    }
+    .main-texts{
+        max-width: 1031px;
+        position: relative;
+        top: 23%;
+        margin: auto;
+        max-height: 120px;
+    }
+    .main-content{
+        margin-top: 200px;
+    }
+    .tx1{
+        text-align: right;
+        max-width: 1031px;
+    }
+    .tx2{
+        text-align: center;
+        max-width: 1031px;
+    }
+    .tx3{
+        text-align: left;
+        max-width: 1031px;
+    }
+    .about{
+        width: 1200px; 
+    }
+    .about-me{
+        max-width: 1114px;
+    }
+    .about-content{
+        margin-left: 85px; 
+    }
+    .about-header{
+        max-width: 1200px;
+    }
+    .about-text{
+        font-size: 50px;
+    }
+   
+    .about-button{
+        float: right;
+        width: 170px;
+        height: 28px;
+        position: absolute;
+        right: 0;
+        left: auto;
+        top: 106px;  
+     }
+    .about-more{
+        font-size: 20px;
+    }
+    .about-arrow{
+        width: 17px;
+        height: 17px;
+    }
+    .about-me{
+        margin-top: 100px;
+    }
+    .about-me-title{
+        width: 178px;
+        margin-right: 187px;
+        font-size: 25px;
+        height: 200px;
+    }
+    .about-me-text{
+        margin-left: 30px;
+        font-size: 20px;
+        width: 299px;
+    }
+    .my-photo{
+        width: 420px;
+    }
+    .abtx1{
+        text-align:left;
+        max-width: 400px;
+    }
+    .abtx2{
+        text-align:right;
+        max-width: 480px;
+    }
+
+
+
+
+
+    .my-skills{
+        max-width: 1018px;
+        margin-top: 150px;
+        height: 306px;
+        position: relative;
+    }
+    .skills{
+        float: center;
+        height: 306px;
+        width: 653px;
+        display: block;
+        margin-left: 365px;
+    }
+    .skill-list{
+        width: 204px;
+        position: absolute;
+        bottom: 0;
+        top: 0;
+    }
+    .slr{
+        top: 0;
+        right: 0;
+    }
+    .skill{
+        width: 204px;
+        height: 56px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 140%;
+        display: block;
+        margin-top: 0;
+    }
+    .sm{
+        margin-top: 25px;
+    }
+    .my-rewards{
+        margin-top: 150px;
+        height: 286px;
+    }
+    .diploma{
+        width: 420px;
+        height: 286px;
+    }
+    .projects{
+        position: relative;
+        margin: auto;
+        width: 1200px;
+        margin-top: 200px;
+    }
+    .prjct1{
+        text-align: left;
+        max-width: 295px;
+    }
+    .prjct2{
+        text-align:right;
+        max-width: 375px;
+    }
+    .show-more{
+        max-width: 1200px;
+    }
+
+    .show-more-button{
+        margin-top: 100px; /*70*/
+        margin-left: 415px; /*295*/
+        padding: 23px 121px;
+        background-color: transparent;
+        border: 1px solid white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        width: 127px;
+        height: 24px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+    }
+    .websites{
+        margin-left: 85px; /*60*/
+        max-width: 1115px; /*960*/
+        margin-top: 100px; /*70*/
+    }
+    .footer{
+        position: relative;
+        margin: auto;
+        width: 1200px;
+        margin-top: 200px;
+    }
+    .ftr1{
+        text-align:left;
+        max-width: 386px;
+    }
+    .ftr2{
+        text-align:right;
+        max-width: 400px;
+    }
+    .contact-me{
+        float: right;
+        width: 165px;
+        height: 28px;
+        position: absolute;
+        right: 0;
+        top: 106px;
+     }
+     .contact{
+        margin-top: 100px; /*60*/
+        margin-left: 85px; /*60*/
+        height: 255px;
+        position: relative;
+        max-width: 1003px; /*960*/
+    }
+    .social-media{
+        margin-top: 64px;
+        width: 487px; /*418*/
+        height: 157px; /*157*/
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .contact-mail{
+        width: 487px;/*418*/
+        height: 42px;/*36*/
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;/*30*/
+        line-height: 42px;
+        color: #FFFFFF;
+    }
+    .social-block{
+        margin-top: 50px;/*56*/
+        position: relative;
+        width: 66px;
+        height: 65px;
+    }
+    .footer-texts{
+        max-width: 1200px;
+        margin: 30px auto;
+    }
+    .real-footer{
+    
+        margin-top: 100px;
+        height: 80px;
+    }
+    
+    .footer-text{
+        position: relative;
+        margin-left: 246px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .footer-text2{
+        position: relative;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .footer-text3{
+        position: relative;
+        margin-left: 246px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .footer-text4{
+        position: relative;
+        margin-left: 246px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .menu-btns{
+        position: absolute;
+        display: block;
+        right: 0;
+    }
+    .about-me-img{
+        float: center;
+        display: flex;
+    }
+    .pc{
+        display: flex;
+    }
+    .mobile{
+        display: none;
+    }
+    .reward-years{
+        width: 236px;
+        height: 45px;
+        display: block;
+        font-family: Monument_Extended;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 140%;
+        border-bottom: 1px solid #ffffff;
+    }
+    .rwrddb{
+        margin-top: 25px;
+        display: block;
+    }
+    .github{
+        position: absolute;
+        right: 0;
+        top: 86px;
+        float: right;
+        
+    }
+    .github-image{
+        opacity: 0.5;
+        width: 163px;
+    }
+    .say-hello{
+        width:365px;
+    }
+    .hello-text{
+        width: 111px;
+        height: 30px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .input{
+        width: 365px;
+        height: 32px;
+        margin-bottom: 30px;
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(255, 255, 255, 0.6); 
+    }
+    .send-button{
+        background-color: white;
+        border: none;
+        padding: 18px 155px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .inpt{
+        margin-top: 40px;
+    }
+    .social{
+        position: relative;
+        width: 319px;
+    }
+    .media{
+        position: absolute;
+        height: 20px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .website-link:hover .website-link-text{
+        left: 55px;
+        width: 94%;
+        transition:width left 1s;
+        
+    }
+    .preview{
+        position: absolute;
+        width: 300px;
+        height: 180px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        transform: translate(10px,20px);
+        pointer-events: none;
+        z-index: 100;
+    }
+    .header{
+        margin: auto;
+        margin-top: 54px;
+        max-width: 1200px;
+        height: 20px;
+        position: relative;
+    }
+}
+
+
+
+.animation{
+    
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    text-align: center;
+}
+.main-content{
+    position: absolute;
+    top:100%;
+    left: 0;
+    
+    width: 100%;
+    
+}
+
+.logo{
+    text-decoration: none;
+    font-family: Plain;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    position: absolute;
+    left: 0;
+}
+
+.menu-btn{
+    text-decoration: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 60px;    
+}
+
+
+
+
+.about{
+    position: relative;
+    margin: auto;
+    
+}
+.about-content{
+    height: 100%;
+    
+}
+
+
+.about-arrow{
+    top: 5px;
+    margin-left: 10px;
+}
+.about-more{
+    cursor:url(/img/Hand.cur), pointer;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.about-more:hover{
+    opacity: 0.5;
+}
+.about-more:hover .about-arrow{
+    transform: rotate(45deg);
+}
+.about-more:active{
+    opacity: 0.7;
+}
+.about-more:active .about-arrow{
+    transform: rotate(90deg);
+}
+.about-texts{
+    position: relative;
+
+}
+.about-text{
+    font-family: Monument_Extended;
+    font-style: normal;
+    font-weight: normal;
+    
+    line-height: 140%;
+}
+
+
+
+
+.about-me-title{
+    float:left;
+
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+}
+.about-me-text{
+    
+    height: 224px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    
+    line-height: 140%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.websites:hover .website-link{
+    opacity: 0.4;
+}
+.websites .website-link:hover{
+    opacity: 1;
+}
+
+.website{
+    position: relative;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.9);
+    border-top: 0.5px solid rgba(255, 255, 255, 0.9);
+    
+    
+}
+.website-hr{
+    /*
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border: none;
+    border-bottom: 1px solid;
+    margin: 0;
+    */
+    border: none;
+    margin: 0;
+
+}
+.website-link{
+    height: 80px;
+    cursor:url(/img/Hand.cur), pointer;
+}
+.cursor-pointer{
+    cursor:url(/img/Hand.cur), pointer;
+}
+.website-link:hover{
+    
+    background: rgba(255, 255, 255, 0.1); 
+    transition:background 0.3s;
+    font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+
+}
+.website-link:hover img{
+    transform: rotate(45deg);
+    transition: 0.3s;
+}
+
+
+.display-none{
+    display: none;
+}
+.preview-image{
+    width: 100%;
+    height: 100%;
+    
+}
+.website-link-text{
+    width: 99%;
+    position: absolute;
+    top: 25px;  
+    cursor:url(/img/Hand.cur), pointer;
+}
+.wbst{
+    width: 114px;
+    height: 80px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    
+}
+.open-site-arrow{
+    position: absolute;
+    
+    right: 0;
+    width: 25px;
+    height: 25px;
+}
+
+
+.github-image:hover{
+    opacity: 1;
+}
+
+.cursor-text{
+    cursor: url(/img/Text.cur),text;
+}
+
+.show-more-button:hover{
+    background-color: white;
+    color: #141414;
+}
+
+
+
+.input:active{
+    border: none;
+}
+
+
+
+
+
+.contact-mail:hover a{
+    color: gray;
+}
+
+.send-button:hover{
+    background-color: #141414;
+    border: 1px solid white;
+    color: white;
+}
+
+
+.media:hover{
+    color: white;
+}
+.m1{
+    top: 0;
+}
+.m2{
+    bottom: 0;
+}
+
+.social-position1{
+    position: absolute;
+}
+.social-position2{
+    position: absolute;
+    right: 0;
+}
+
+
+
+.footer-link{
+    text-decoration: underline;
+}
+.footer-hr{
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 1px solid;
+}
+.element-animation {
+    
+    
+    
+    
+    /* Скроем элемент в начальном состоянии */
+    opacity: 0;
+    
+  }
+  
+.element-animation.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+}
+.scroll-up{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    opacity:0.3;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+.scroll-up:hover{
+    opacity: 1;
+}
+.circle{
+
+    
+    margin: 10px auto;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #FFFFFF;
+    border-right: 2px solid #ffffff;
+    transform: rotate(-45deg);
+    
+}
+
+/* Header animation */
+.text-wrapper{
+    overflow: hidden;
+    display: block;
+  }
+  
+  .text{
+    animation: slideUp 1s forwards;
+    display: inline-block;
+    transform: translateY(150%);
+  }
+  div .text-wrapper:nth-of-type(1) .text{
+    animation-delay: 0s;
+  }
+  div .text-wrapper:nth-of-type(2) .text{
+    animation-delay: .15s;
+  }
+  
+  @keyframes slideUp {
+    0% {
+      transform: translateY(150%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  /* Header animation end*/
+  .more_service{
+      display: block;
+  }
+
+  
+  
