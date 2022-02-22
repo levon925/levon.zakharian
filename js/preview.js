@@ -12,7 +12,7 @@ div.classList.add('display-none');
 
 
 
-const getData = () => fetch('db/websites.json')
+const getData = () => fetch('https://levon925.github.io/levon.zakharian/db/websites.json')
 .then((response) => {
   if(response.ok) {
       return response.json();
